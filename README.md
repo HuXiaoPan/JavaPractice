@@ -66,3 +66,7 @@ BigInteger和BigDecimal
 ##D09
 堆栈、队列、数组、链表
 斗地主项目
+
+##D10
+Error/Exception
+RuntimeException运行时期异常
