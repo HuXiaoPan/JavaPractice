@@ -1,4 +1,4 @@
-package LotteryRandomNum;
+ package LotteryRandomNum;
 
 public class Program {
 
