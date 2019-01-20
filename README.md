@@ -76,3 +76,10 @@ IO流
 IO流的写入写出
 福彩机选小程序
 转换流和缓冲流
+Properties类
+对象的序列化和反序列化（序列化流）
+transient瞬态拒绝序列化
+标记型接口Serializable
+序列化序列号冲突问题：自定义序列号
+打印流
+commons-io
