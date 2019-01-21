@@ -89,3 +89,6 @@ commons-io
 分时调度抢占模式
 主线程
 Thread类
+runnable接口
+高内聚低耦合
+线程池
