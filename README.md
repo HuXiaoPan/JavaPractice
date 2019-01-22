@@ -95,3 +95,6 @@ runnable接口
 线程安全问题
 同步代码块
 线程锁（对象监视器）
+Lock类
+死锁
+wait和notify
