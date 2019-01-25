@@ -1,8 +1,10 @@
 package gjp.view;
 
+import java.util.List;
 import java.util.Scanner;
 
 import gjp.controller.ZhangwuController;
+import gjp.domain.Zhangwu;
 
 public class MainView {
 	private ZhangwuController controller = new ZhangwuController();
@@ -64,6 +66,9 @@ public class MainView {
 
 	private void selectAll() {
 		// TODO Auto-generated method stub
-		
+		List<Zhangwu> list = controller.selectAll();
+		for (Zhangwu zhangwu : list) {
+			System.out.println(zhangwu.toString());
+		}
 	}
 }
