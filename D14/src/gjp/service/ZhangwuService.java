@@ -11,4 +11,23 @@ public class ZhangwuService {
 	public List<Zhangwu> selectAll(){
 		return dao.selectAll();
 	}
+
+	public List<Zhangwu> select(String start, String end) {
+		// TODO Auto-generated method stub
+		return dao.select(start,end);
+	}
+
+	public int addZhangwu(Zhangwu zw) {
+		// TODO Auto-generated method stub
+		return dao.addZhangwu(zw);
+	}
+
+	public int editZhangwu(Zhangwu zw) {
+		// TODO Auto-generated method stub
+		return dao.editZhangwu(zw);
+	}
+	
+	public int dropZhangwu(Zhangwu zw) {
+		return dao.dropZhangwu(zw);
+	}
 }

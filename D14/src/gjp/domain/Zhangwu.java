@@ -21,6 +21,11 @@ public class Zhangwu {
 		this.description = description;
 	}
 
+	public Zhangwu(int zwid) {
+		// TODO Auto-generated constructor stub
+		this.zwid = zwid;
+	}
+
 	/**
 	 * @return the zwid
 	 */
